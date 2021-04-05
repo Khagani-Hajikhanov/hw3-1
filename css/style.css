@@ -1,0 +1,226 @@
+.clearfix{
+    content: "";
+    clear: both;
+}
+body{
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+}
+header{
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.logo{
+    color: white;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    background: teal;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+    margin: auto 0px;
+    
+}
+
+nav{
+    float: right;
+}
+
+
+nav ul {
+    clear: both;
+    display: flex;
+    margin: 0;
+    padding: 5px 0px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626;
+}
+
+nav ul li a.active, nav ul li :hover{
+    background: teal;
+    transition: .5s;
+    color: white;
+}
+
+.body{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    box-sizing: border-box;
+    
+    
+}
+p{
+    text-align: justify;
+}
+.s{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.sol{
+    width: 650px;
+    padding: 10px;
+    float: left;
+}
+
+.sag{
+    padding: 10px;
+    justify-content: center;
+    width: 270px;
+    float: right;
+    text-align: center;
+}
+.sos{
+    margin: 3px;
+    width: 15%;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: teal;
+}
+
+
+hr{
+    margin: 10px;
+}
+
+.img{
+    padding-right: 10px;
+    width: 35%;
+    float: left;
+    
+}
+
+label{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    margin: 20px 10px 15px 10px;
+}
+
+input, textarea{
+    width: 95%;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .logo{
+        width: 100%;
+    }
+
+    nav{
+       
+        width: 100%;
+        
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .body{
+        position: relative;
+        
+        width: 100%;
+        
+    }
+
+    .sag{
+        width: 100%;
+        margin: 30px 10px;
+    }
+    .sol{
+        margin: 30px 10px;
+        width: 100%;
+    }
+
+    
+
+  
+
+}
+
+@media only screen and (max-width: 960px) and (min-width:640px){
+
+    .body{
+        position: relative;
+        
+        width: 100%;
+        display: flex;
+    }
+
+    
+    
+    .sag{
+        height: 150px;
+        float: right;
+        width: 30%;
+        margin: 5px;
+    }
+    .sol{
+        float: left;
+        width: 70%;
+        margin: 5px;
+    }
+
+    img{
+        
+        flex: 1 1 50%;
+    }
+}
+
+footer {
+    height: 20px;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+  }
+
+button{
+    background-color: teal;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+img{
+    align-items: center;
+    width: 260px;
+    margin: 10px;
+}
